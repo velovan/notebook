@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 public class DeleteButtonActionListener extends ListTableActionListener {
 
 	public void actionPerformed(ActionEvent e) {
+		
 		int selectedRow = table.getSelectedRow();
 
 		if (selectedRow == -1) {
