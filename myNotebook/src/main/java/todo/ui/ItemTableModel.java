@@ -9,6 +9,7 @@ public class ItemTableModel extends AbstractTableModel {
 	private List itemList;
 
 	public boolean isCellEditable(int rowIndex, int columnIndex) {
+		
 		return true;
 	}
 
