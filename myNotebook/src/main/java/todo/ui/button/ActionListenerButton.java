@@ -3,7 +3,6 @@ package todo.ui.button;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 
-
 public class ActionListenerButton extends JButton {
     
     private ActionListener actionListener;
