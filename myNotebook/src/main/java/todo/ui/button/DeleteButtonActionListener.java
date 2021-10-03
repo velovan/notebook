@@ -17,7 +17,6 @@ public class DeleteButtonActionListener extends ListTableActionListener {
 		
 			return;
 		}
-
 		list.remove(selectedRow);
 		table.revalidate();
 	}
