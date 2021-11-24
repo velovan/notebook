@@ -7,18 +7,14 @@ public class DeleteButtonActionListener extends ListTableActionListener {
 	public void actionPerformed(ActionEvent e) {
 		
 		int selectedRow = table.getSelectedRow();
-
-		if (selectedRow == -1) {
-			
-			return;
+		if (selectedRow == -1){
+		   return;
 		}
 
-		if (table.isEditing()) {
-		
-			return;
+		if (table.isEditing()){
+		   return;
 		}
 		list.remove(selectedRow);
 		table.revalidate();
 	}
-
 }
