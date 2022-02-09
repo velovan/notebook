@@ -14,4 +14,5 @@ public class ActionListenerButton extends JButton {
     public void init() {
         this.addActionListener(actionListener);
     }
+    
 }
