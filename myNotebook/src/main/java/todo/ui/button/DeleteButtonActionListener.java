@@ -10,11 +10,11 @@ public class DeleteButtonActionListener extends ListTableActionListener {
 		if (selectedRow == -1){
 		   return;
 		}
-
 		if (table.isEditing()){
 		   return;
 		}
 		list.remove(selectedRow);
 		table.revalidate();
 	}
+	
 }
