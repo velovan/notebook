@@ -10,11 +10,11 @@ public abstract class ListTableActionListener implements ActionListener {
 	protected List list;
 
 	public void setList(List list) {
-		this.list = list;
+	     this.list = list;
 	}
 
 	public void setTable(JTable itemTable) {
-		this.table = itemTable;
+	     this.table = itemTable;
 	}
 
 }
