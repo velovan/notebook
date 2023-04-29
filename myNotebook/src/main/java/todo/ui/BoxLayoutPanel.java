@@ -16,11 +16,11 @@ public class BoxLayoutPanel extends JPanel{
 		this.axis = axis;
 	}
 
-	public void setPanelComponents(List panelComponents) {
+	public void setPanelComponents(List panelComponents){
 		this.panelComponents = panelComponents;
 	}
 
-	public void init() {
+	public void init(){
 
 		setLayout(new BoxLayout(this, axis));
 
