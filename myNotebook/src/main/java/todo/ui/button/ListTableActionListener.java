@@ -4,7 +4,7 @@ import java.awt.event.ActionListener;
 import java.util.List;
 import javax.swing.JTable;
 
-public abstract class ListTableActionListener implements ActionListener {
+public abstract class ListTableActionListener implements ActionListener{
 
 	protected JTable table;
 	protected List list;
