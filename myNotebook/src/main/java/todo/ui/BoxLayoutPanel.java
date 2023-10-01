@@ -8,7 +8,7 @@ import javax.swing.BoxLayout;
 import javax.swing.JPanel;
 
 
-public class BoxLayoutPanel extends JPanel{
+public class BoxLayoutPanel extends JPanel {
 	private List panelComponents;
 	private int axis;
 
